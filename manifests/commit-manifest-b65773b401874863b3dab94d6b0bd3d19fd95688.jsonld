@@ -1,0 +1,45 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/NousResearch/hermes-compression-eval/commit/b65773b401874863b3dab94d6b0bd3d19fd95688",
+  "@type": "git:Commit",
+  "git:hexsha": "b65773b401874863b3dab94d6b0bd3d19fd95688",
+  "repolex:repository": {
+    "@id": "https://repolex.ai/r/NousResearch/hermes-compression-eval"
+  },
+  "repolex:graphFile": [
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "filetree",
+      "repolex:graphFilePath": "filetree/b65773b401874863b3dab94d6b0bd3d19fd95688.nq.gz",
+      "repolex:graphFileSize": 2640
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "commit",
+      "repolex:graphFilePath": "commit/commit.nq.gz",
+      "repolex:graphFileSize": 1169
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "branch",
+      "repolex:graphFilePath": "branch/branch.nq.gz",
+      "repolex:graphFileSize": 419
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "tag",
+      "repolex:graphFilePath": "tag/tag.nq.gz",
+      "repolex:graphFileSize": 32
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "pr",
+      "repolex:graphFilePath": "pr/pr.nq.gz",
+      "repolex:graphFileSize": 2125
+    }
+  ],
+  "repolex:parseStatus": "metadata_complete",
+  "repolex:parsedAt": "2026-10-03T10:37:02.907898+00:00",
+  "repolex:parserVersion": "0.1.10",
+  "git:tagName": "main"
+}
