@@ -51,7 +51,9 @@
           "githubUrl": "https://github.com/google/python-fire",
           "source": "build_file:requirements.txt"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/b65773b401874863b3dab94d6b0bd3d19fd95688/chunk-001.nq.gz",
+      "dep": "dep/b65773b401874863b3dab94d6b0bd3d19fd95688.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
