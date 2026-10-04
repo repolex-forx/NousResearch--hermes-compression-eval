@@ -1,0 +1,11 @@
+{
+  "org": "NousResearch",
+  "repo": "hermes-compression-eval",
+  "versions": [
+    {
+      "commit": "b65773b401874863b3dab94d6b0bd3d19fd95688",
+      "tag": "main",
+      "parsed_at": "2026-10-04T14:37:23.233431+00:00"
+    }
+  ]
+}
