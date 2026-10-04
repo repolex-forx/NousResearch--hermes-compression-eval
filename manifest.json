@@ -30,6 +30,27 @@
       ],
       "ast": [
         "aggregate/ast/b65773b401874863b3dab94d6b0bd3d19fd95688/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/b65773b401874863b3dab94d6b0bd3d19fd95688.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "openai",
+          "ecosystem": "PYPI",
+          "version": "1.0",
+          "githubOrg": "openai",
+          "githubRepo": "openai-python",
+          "githubUrl": "https://github.com/openai/openai-python",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "fire",
+          "ecosystem": "PYPI",
+          "version": "0.7",
+          "githubOrg": "google",
+          "githubRepo": "python-fire",
+          "githubUrl": "https://github.com/google/python-fire",
+          "source": "build_file:requirements.txt"
+        }
       ]
     }
   ],

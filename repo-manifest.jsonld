@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/NousResearch/hermes-compression-eval/commit/b65773b401874863b3dab94d6b0bd3d19fd95688",
       "git:hexsha": "b65773b401874863b3dab94d6b0bd3d19fd95688",
-      "repolex:parseStatus": "ast_complete",
+      "repolex:parseStatus": "enrich_complete",
       "git:tagName": "main"
     }
   ]

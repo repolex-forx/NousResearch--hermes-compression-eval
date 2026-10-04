@@ -1,0 +1,16 @@
+[2026-10-04T14:35:29Z] === ENRICH ITERATION 1 START | repo=NousResearch/hermes-compression-eval sha=b65773b4 ===
+[2026-10-04T14:35:29Z] [iter=1] PHASE START: enrich repo=NousResearch/hermes-compression-eval sha=b65773b4 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/b65773b4-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/b65773b401874863b3dab94d6b0bd3d19fd95688.nq.gz
+[2026-10-04T14:35:33Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-10-04T14:35:34Z] [iter=1] AST store loaded triples=80790 load_secs=2 mem_mb=208 MB
+[2026-10-04T14:35:34Z] [iter=1] Step 2: Finding LSP targets mem_mb=208 MB
+[2026-10-04T14:35:34Z] [iter=1] LSP targets found call_sites=468 imports=50 extends=0 implements=0 secs=0
+[2026-10-04T14:35:34Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=208 MB
+[2026-10-04T14:35:35Z] [iter=1] Position index built positions=5535 nodes_with_types=7331 secs=0 mem_mb=208 MB
+[2026-10-04T14:35:35Z] [iter=1] Step 3: Starting LSP resolution mem_mb=208 MB already_completed_types=[] already_completed_files=0
+[2026-10-04T14:35:35Z] [iter=1] Resolving target type target_type=call_site count=468
+[2026-10-04T14:35:43Z] [iter=1] Target type resolved target_type=call_site resolved=317 errors=102 secs=8 mem_mb=208 MB
+[2026-10-04T14:35:43Z] [iter=1] Resolving target type target_type=import_statement count=50
+[2026-10-04T14:35:44Z] [iter=1] Target type resolved target_type=import_statement resolved=43 errors=0 secs=1 mem_mb=208 MB
+[2026-10-04T14:35:45Z] [iter=1] Step 5: Writing final enrichment file triples=4624
+[2026-10-04T14:35:45Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/b65773b401874863b3dab94d6b0bd3d19fd95688.nq.gz size_kb=75
+[2026-10-04T14:35:45Z] [iter=1] PHASE END: enrich elapsed_s=16 elapsed_min=0.3 total_triples=4624
